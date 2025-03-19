@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './componenets/home/Home'
-
+// import Loading from './componenets/loading/Loading'
+import MainBody from './componenets/MainBody'
+import { BrowserRouter } from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-
-        <Home/>
-
+    <BrowserRouter>
+        <MainBody/>
+    </BrowserRouter>
   )
 }
 

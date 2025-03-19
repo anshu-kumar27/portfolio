@@ -57,7 +57,7 @@ function Home() {
 
       {/* Navbar End */}
       <div className="navbar-end">
-        <a className="btn btn-primary">Button</a> {/* ✅ Fixed primary button */}
+        <a className="btn btn-primary">Contact</a> {/* ✅ Fixed primary button */}
       </div>
     </div>
   );
