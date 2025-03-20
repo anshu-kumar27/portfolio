@@ -1,1 +1,1 @@
-Hosted URL : https://anshu-kumar27.github.io/portfolio/
+URL : https://anshu-kumar27.github.io/portfolio/
