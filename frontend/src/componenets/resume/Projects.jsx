@@ -19,10 +19,10 @@ function Projects() {
       />
 
       <Skeleton 
-      work_title="PORTFOLIO WEBSITE"
+      work_title="PERSONAL WEBSITE"
       work_desc_array = {
         ["Developed a personal portfolio using React and Tailwind CSS for a clean, responsive, and visually engaging UI.",
-          "Built backend with Node.js and MongoDB, implemented endpoints to collect user feedback and handle contact requests.",
+          "Built a backend with Node.js and MongoDB, implemented endpoints to process contact form submissions and store inquiries securely.",
         ]
       }
       work_Duration = "02/2025 to 03/2025"
