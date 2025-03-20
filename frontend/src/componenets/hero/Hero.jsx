@@ -1,12 +1,12 @@
 import React from 'react'
-
+import herobg from "../../assets/pics/herobg.jpg";
 function Hero() {
   return (
     <div
     id='home'
   className="hero min-h-screen"
   style={{
-    backgroundImage: "url('/herobg.jpg')",
+    backgroundImage: `url(${herobg})`,
   }}>
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-left justify-center">
