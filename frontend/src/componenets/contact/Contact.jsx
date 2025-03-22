@@ -9,7 +9,7 @@ function Contact() {
     <h1 className="mb-5 text-5xl font-bold">Contact</h1>
     <div className="flex md:flex-row flex-col">
       <Me/>
-      <Form/>
+      {/* <Form/> */}
       </div>
     </div>
 

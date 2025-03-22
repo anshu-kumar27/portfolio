@@ -14,7 +14,11 @@ function Hobbies() {
                 {Object.keys(hobbiesData).map((hobby) => (
                     <button 
                         key={hobby} 
-                        className={`h-auto m-2 tab ${selectedHobby === hobby ? "tab-active" : ""}`}
+                        className={`h-auto m-2 tab px-4 py-2 rounded-lg font-semibold transition-all duration-300 
+                            ${selectedHobby === hobby 
+                                ? "tab-active border-2 border-primary bg-primary text-white shadow-lg" 
+                                : "border border-gray-400 bg-gray-200 text-black dark:bg-gray-700 dark:text-white hover:bg-primary hover:text-white hover:border-primary hover:scale-105"
+                            }`}                          
                         onClick={() => setSelectedHobby(hobby)}
                     >
                         {hobby}
