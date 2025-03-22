@@ -31,7 +31,7 @@ function Sidebar() {
     }, []);
 
     return (
-        <div className="drawer lg:drawer-open fixed top-0 left-0 h-full w-64 max-w-[80vw] z-55">
+        <div className="drawer lg:drawer-open fixed top-0 left-0 h-full w-64 max-w-[80vw] z-[100]">
             <label htmlFor="my-drawer-2" className="lg:hidden fixed top-4 right-4 text-3xl cursor-pointer z-100">
                 ☰
             </label>
