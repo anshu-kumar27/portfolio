@@ -12,11 +12,11 @@ import './Aboutcss.css'
 import Skills from './Skills';
 function About() {
     return (
-        <div className='p-4 m-4' id='about'>
+        <div className='pt-4 pb-4 mt-4 mb-4 pl-4' id='about'>
             <h1 className="mb-5 text-5xl font-bold ">About</h1>
             <h3 className="mb-3 text-1xl">Once upon a time, I wrote my first ‘Hello, World!’ and never looked back. Now, I build scalable backends, craft sleek frontends, and optimize performance like a digital handyman. Whether it’s designing APIs, managing data, or styling, I turn ideas into smooth, functional experiences. Have a project in mind? Let’s make it happen!</h3>
-            <div className="flex flex-nowrap flex-row">
-                <div className="w-1/2 p-4">
+            <div className="flex flex-wrap flex-row p-4">
+                <div className="md:w-1/2 w-full">
                     <h1 className="mb-1 text-base font-bold flex items-center gap-2 p-1">
                         <HiCake size={20} /> Birthday: <span className="font-normal text-base">27th April</span>
                     </h1>
@@ -30,7 +30,7 @@ function About() {
                         <LuNotebook size={18} /> Field: <span className="font-normal text-base">Computer Science</span>
                     </h1>
                 </div>
-                <div className="w-1/2 p-4">
+                <div className="md:w-1/2 w-full">
                     <h1 className="mb-1 text-base font-bold flex items-center gap-2 p-1">
                         <IoTimerOutline size={20} /> Age: <span className="font-normal text-base">22</span>
                     </h1>

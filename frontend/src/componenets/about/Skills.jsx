@@ -2,10 +2,9 @@ import React from 'react'
 import './Aboutcss.css'
 function Skills() {
   return (
-    // <!-- From Uiverse.io by Juanes200122 --> 
     <>
-    <div className="flex flex-nowrap flex-row pl-2">
-      <div className="w-1/2">
+    <div className="flex flex-wrap flex-row pl-2 overflow-auto">
+      <div className="md:w-1/2 w-full">
         <div className="skill-box p-4">
             <span className="title">Java</span>
 
@@ -36,7 +35,7 @@ function Skills() {
         </div>
         </div>
 
-        <div className="w-1/2">
+        <div className="md:w-1/2 w-full">
         <div className="skill-box p-4">
             <span className="title">Mongo-Db</span>
 
@@ -58,17 +57,17 @@ function Skills() {
         </div>
         </div>
     </div>
-    <div className="pl-2">
-            <h1 className="mb-1 text-base font-bold flex items-center gap-2 pt-4 pl-4">
-            Programming: <span className="font-normal text-base">Java (versions 8, 11, 17, 22), JavaScript, C++, Python.</span>
+    <div className="pt-2">
+            <h1 className="mb-1 text-base font-bold flex items-start gap-2 pt-4 pl-4">
+            Programming: <span className="font-normal text-base">Java, JavaScript, C++, Python.</span>
             </h1>
-            <h1 className="mb-1 text-base font-bold flex items-center gap-2 pt-4 pl-4">
+            <h1 className="mb-1 text-base font-bold flex items-start gap-2 pt-4 pl-4">
             Database: <span className="font-normal text-base">MongoDB, MySQL, PostgreSQL.</span>
             </h1>
-            <h1 className="mb-1 text-base font-bold flex items-center gap-2 pt-4 pl-4">
+            <h1 className="mb-1 text-base font-bold flex items-start gap-2 pt-4 pl-4">
             Core: <span className="font-normal text-base">DSA, Git, Linux, Agile.</span>
             </h1>
-            <h1 className="mb-1 text-base font-bold flex items-center gap-2 pt-2 pl-4">
+            <h1 className="mb-1 text-base font-bold flex items-start gap-2 pt-4 pl-4">
             Frameworks and libraries: <span className="font-normal text-base">Node, SpringBoot, React.</span>
         </h1>
         </div>

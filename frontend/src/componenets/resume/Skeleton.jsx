@@ -3,11 +3,11 @@ import React from 'react';
 function Skeleton({ work_title, work_desc_array, work_role, work_location, work_Duration }) {
     return (
         <>
-        <div className="relative bg-base-100 pl-3 pr-3 flex flex-col w-auto mt-3">
-            <div className="absolute left-0 top-0 h-full w-[4px] bg-primary"></div>
+        <div className="bg-base-100 pl-3 pr-3 flex flex-col w-auto mt-3 z-1">
+            <div className="absolute left-0 top-0 h-full w-[4px] bg-primary z-1"></div>
 
             <div className="flex flex-row justify-between items-start w-full">
-                <div className="w-[100%]">
+                <div className="w-full">
                     <h2 className="card-title text-base">{work_title}</h2>
                     {work_role && <h2 className="card-title text-sm">{work_role}</h2>}
                 </div>

@@ -35,9 +35,9 @@ function Form() {
   };
 
   return (
-    <div className="flex items-center justify-center h-auto bg-base-100">
-      <div className="card w-full max-w-lg shadow-xl bg-base-200 p-6 flex-row">
-        <form onSubmit={handleSubmit} className="space-y-4 pl-4 pt-4">
+    <div className="flex items-center justify-center h-auto bg-base-100 z-0">
+      <div className="card w-full max-w-lg shadow-xl bg-base-200 p-6  flex-row z-0">
+        <form onSubmit={handleSubmit} className="space-y-4 pl-4 pt-4 z-0">
           <div className="flex gap-4">
             <input
               type="text"

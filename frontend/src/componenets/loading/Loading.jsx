@@ -2,7 +2,7 @@ import React from "react";
 import "./loading.css";
 function Loading() {
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center min-h-screen">
             <ul className="cssload-flex-container">
                 <li>
                     <span className="cssload-loading cssload-one"></span>

@@ -1,11 +1,16 @@
 /* From Uiverse.io by Juanes200122 */ 
-.container {
-  position: relative;
-  max-width: 49%;
-  width: 100%;
-  margin: 0 15px;
-  padding: 10px 20px;
-  border-radius: 7px;
+/* .container {
+  /* position: relative; */
+  /* max-width: 49%; */
+  /* width: 100%; */
+  /* margin: 0 15px;
+  padding: 10px 20px; */
+  /* border-radius: 7px; */
+/* } */
+
+#about {
+  max-width: 90%;
+  overflow-x: hidden;
 }
 
 .container .skill-box {
@@ -102,4 +107,10 @@
   z-index: -1;
   background-color: #4070f4;
   transform: translateX(-50%) rotate(45deg);
+}
+
+@media (max-width: 768px) {
+  .skill-box {
+    width: 100%; /* Prevent side overflow */
+  }
 }

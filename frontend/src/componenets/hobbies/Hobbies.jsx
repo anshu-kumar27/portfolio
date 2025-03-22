@@ -6,11 +6,11 @@ function Hobbies() {
     const [selectedHobby, setSelectedHobby] = useState("Photography"); // Default active tab
 
     return (
-        <div className='p-4 m-4 flex flex-col items-center text-center' id='hobbies'>
+        <div className='pt-4 pb-4 mt-4 mb-4 flex flex-col items-center text-center max-w-full overflow-hidden' id='hobbies'>
             <h1 className="mb-5 text-5xl font-bold">Hobbies</h1>
 
             {/* Tab Buttons */}
-            <div role="tablist" className="tabs tabs-border flex justify-center h-auto">
+            <div role="tablist" className="tabs tabs-border flex flex-wrap justify-center h-auto max-w-full px-4 z-50 relative">
                 {Object.keys(hobbiesData).map((hobby) => (
                     <button 
                         key={hobby} 
@@ -27,7 +27,7 @@ function Hobbies() {
             </div>
 
             {/* Images Display with Animation */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6 max-w-full px-4">
                 <AnimatePresence mode="wait">
                     {hobbiesData[selectedHobby].map((imgSrc, index) => (
                         <motion.img

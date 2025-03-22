@@ -6,8 +6,9 @@ function Resume() {
   return (
     <div className='p-4 m-4'>
             <h1 className="mb-5 text-5xl font-bold" id='resume'>Resume</h1>
-            <div className="flex md:flex-row flex-col">
+            <div className="flex md:flex-row flex-col overflow-y: hidden;">
             <Exp/>
+            <div className="mt-4"></div>
             <Projects/>
             </div>
     </div>
